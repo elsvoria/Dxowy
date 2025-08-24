@@ -19,8 +19,6 @@ python dxowy_bot.py
 
 ## 📞 İletişim
 - Bot: @dxowybot
-- Destek: @dxowy_support
-- Admin ID: 7562668997
 
 ## 💳 Minimum Fiyatlar
 - AI Automation: $500
