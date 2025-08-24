@@ -1,8 +1,12 @@
 import sqlite3
 import logging
 import os
+from dotenv import load_dotenv
 from telegram import Update, ReplyKeyboardMarkup, ReplyKeyboardRemove, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, CallbackQueryHandler
+
+# 🔧 Environment Variables Yükle
+load_dotenv()
 
 # 🔧 DXOWY BOT AYARLARI
 BOT_TOKEN = os.getenv("TELEGRAM_TOKEN", "YOUR_BOT_TOKEN_HERE")
