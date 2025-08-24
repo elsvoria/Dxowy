@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: dxowy-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python dxowy_bot.py
+    plan: free
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 8450361292:AAGKCuFzG2fCd6Mbceb7Ou1P5wx1Xg-udkA
+      - key: ADMIN_ID
+        value: 7562668997

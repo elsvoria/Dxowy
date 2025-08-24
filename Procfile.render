@@ -1,0 +1,2 @@
+# Render.com deploy için
+web: python dxowy_bot.py

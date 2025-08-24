@@ -1,0 +1,20 @@
+{
+  "name": "dxowy-business-bot",
+  "description": "Professional business automation bot for DXOWY",
+  "version": "1.0.0",
+  "main": "dxowy_bot.py",
+  "scripts": {
+    "start": "python dxowy_bot.py"
+  },
+  "keywords": ["telegram", "bot", "business", "automation", "dxowy"],
+  "author": "DXOWY Technologies",
+  "license": "MIT",
+  "engines": {
+    "python": "3.11.x"
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
